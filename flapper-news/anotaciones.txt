@@ -1,0 +1,11 @@
+
+Agregar esta linea en: config/initializers/assets.rb
+Rails.application.config.assets.precompile += %w( application.js )
+
+Configurar config/routes para poner donde arranca la app
+
+Agregar en el archivo Gemfile la siguiente linea:
+
+	gem 'angular-rails-templates'
+
+luego de esto correr bundle install para actualizar las gemas y reiniciar el server
